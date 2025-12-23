@@ -27,7 +27,7 @@
             return (given - cost * rate).toFixed(2);
         }
 
-        return ((given - cost) / rate).toFixed(2);
+        return ((given - cost) * rate).toFixed(2);
     })
 </script>
 
