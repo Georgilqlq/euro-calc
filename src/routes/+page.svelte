@@ -1,4 +1,6 @@
 <script>
+    import { rate } from '$lib/stores/global-variables';
+
     const currencies = [
 		{
 			id: 1,
@@ -9,7 +11,6 @@
 			text: '€'
 		}
 	];
-    const rate = 1.95583;
 
     let selectedCurrency = $state();
     let given = $state();
